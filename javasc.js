@@ -6,3 +6,7 @@ function topFunction() {
 function mid1Function() {
     document.documentElement.scrollTop = 200;
 }
+
+function mid2Function() {
+    document.documentElement.scrollTop = 1650;
+}
