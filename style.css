@@ -44,9 +44,9 @@
     margin-right: 7%;
     overflow: hidden;
     margin-top: 5%;
-    font-size: 200%;
     color: azure;
     text-align: center;
+    font-size: 200%;
     font-family: "Lucida Console", "Courier New", monospace;
 }
 
@@ -81,7 +81,7 @@
     padding-left: 5%;
     padding-right: 5%;
     padding-bottom: 5%;
-    font-size: 150%;
+    font-size: 170%;
 }
 
 .imgsnake{
@@ -115,14 +115,6 @@
     font-size: 200%;
     color: #f2f2f2;
     margin-bottom: 7%;
-    padding: 5%;
-    text-align: center;
-    background-color: rgba(0, 0, 0, 0.473);
-}
-
-.textdesend{
-    font-size: 200%;
-    color: #f2f2f2;
     padding: 5%;
     text-align: center;
     background-color: rgba(0, 0, 0, 0.473);
@@ -163,4 +155,82 @@
     margin-left: auto;
     margin-right: auto;
     border: 7px dashed rgb(7, 17, 158);
+}
+
+.clippresent{
+    height: auto;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-style: ridge;
+    border-width: 15px;
+    border-color: rgb(214, 214, 214);
+}
+
+.textonclip{
+    margin-top: 5%;
+    margin-left: 5%;
+    float: left;
+    font-size: 270%;
+    color: aliceblue;
+    text-align: center;
+    border: 7px solid rgb(24, 35, 185);
+    background-color: rgba(4, 255, 255, 0.301);
+    padding: 2%;
+}
+
+.byout{
+    color: white;
+    padding: 1.5%;
+    background-color: red;
+    font-size: larger;
+    border-radius: 20px;
+    margin-left: 1%;
+}
+
+.textgroup{
+    color: rgb(255, 255, 255);
+    background-color: rgba(51, 51, 51, 0.884);
+    padding: 2%;
+    font-size: 270%;
+    margin-top: 5%;
+}
+
+.textmember{
+    color: rgb(255, 255, 255);
+    font-size: 150%;
+    margin-left: 1%;
+    text-indent: 2%;
+    border: 20px rgb(85, 38, 38);
+    border-style: hidden hidden hidden double;
+}
+
+.imgcodeend{
+    height: auto;
+    width: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.row {
+    box-sizing: border-box;
+    display: flex;
+}
+
+.imgend1 {
+    margin-top: 2%;
+    flex: 33%;
+}
+
+.imgend2 {
+    flex: 33%;
+    text-align: center;
+}
+
+.imgend3 {
+    margin-bottom: 2%;
+    text-align: left;
+    flex: 33%;
 }

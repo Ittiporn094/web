@@ -10,3 +10,11 @@ function mid1Function() {
 function mid2Function() {
     document.documentElement.scrollTop = 1650;
 }
+
+function mid3Function() {
+    document.documentElement.scrollTop = 13500;
+}
+
+function bottomFunction() {
+    document.documentElement.scrollTop = 60000;
+}
